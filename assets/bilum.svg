@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 170">
+  <title>Woven bilum</title>
+  <path d="M43 72C32 12 118 12 107 72" fill="none" stroke="#70412d" stroke-width="9" stroke-linecap="round"/>
+  <path d="M46 69C38 25 112 25 104 69" fill="none" stroke="#d6a55c" stroke-width="4"/>
+  <path d="M24 69Q75 80 126 69L119 125Q114 157 75 160Q36 157 31 125Z" fill="#dba86b" stroke="#70412d" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M25 70Q75 60 125 70Q75 81 25 70Z" fill="#50372b" stroke="#70412d" stroke-width="4"/>
+  <path d="M29 84l15 12 15-12 16 12 16-12 15 12 15-12M31 105l13 11 15-11 16 11 16-11 15 11 13-11M35 125l9 8 15-10 16 10 16-10 15 10 9-8" fill="none" stroke="#a44b37" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M40 82l13 66M57 84l7 70M75 85v72M93 84l-7 70M110 82l-13 66" fill="none" stroke="#f4d494" stroke-width="2" opacity=".7"/>
+</svg>

@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#123c35">
+  <title>Kundu Sanguma — Craft & Trade</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="masthead">
+      <div>
+        <p class="eyebrow">CRAFT · TRADE · STRATEGY</p>
+        <h1>Kundu Sanguma</h1>
+        <p class="tagline">Build the strongest market bundles before the shadow reaches the market.</p>
+      </div>
+      <button id="new-game" class="text-button" type="button">New journey</button>
+    </header>
+
+    <figure class="scene" aria-label="Original illustration of a riverside craft market">
+      <img src="assets/market-landscape.svg" alt="Stylized mountains, a river, gardens, and a craft market shelter">
+      <figcaption>Every journey begins where craft, garden, and trade meet.</figcaption>
+    </figure>
+
+    <section class="opposition" aria-labelledby="opposition-title">
+      <div class="opposition-mark" aria-hidden="true">✦</div>
+      <div>
+        <p class="eyebrow" id="opposition-title">ROUND <span id="round-number">1</span> · OPPOSITION</p>
+        <h2 id="opponent-name">Whispering Mist</h2>
+        <p id="opponent-copy">Keep the market lights bright with well-made bundles.</p>
+      </div>
+      <div class="target-box">
+        <span>Target</span>
+        <strong id="target-score">900</strong>
+      </div>
+    </section>
+
+    <section class="scoreboard" aria-label="Round status">
+      <div class="metric"><span>Market score</span><strong id="market-score">0</strong></div>
+      <div class="metric"><span>Hands</span><strong id="hands-left">4</strong></div>
+      <div class="metric"><span>Discards</span><strong id="discards-left">3</strong></div>
+      <div class="metric"><span>Best journey</span><strong id="best-score">0</strong></div>
+    </section>
+
+    <section class="rules" aria-label="Combination guide">
+      <span><b>Pair</b> same tier</span>
+      <span><b>Craft Set</b> same family</span>
+      <span><b>Trade Route</b> same family + sequence</span>
+      <span><b>Market Day</b> one of each family</span>
+    </section>
+
+    <section class="hand-area" aria-labelledby="hand-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">YOUR SATCHEL</p>
+          <h2 id="hand-title">Choose up to five items</h2>
+        </div>
+        <p id="selection-count" class="selection-count">0 / 5 selected</p>
+      </div>
+      <div id="hand" class="hand" aria-live="polite"></div>
+    </section>
+
+    <section class="action-bar" aria-label="Game actions">
+      <div class="play-readout">
+        <span id="combo-name">Select items to inspect a bundle</span>
+        <strong id="potential-score">—</strong>
+      </div>
+      <div class="bilum" id="bilum" aria-label="Woven bilum for played bundles">
+        <img src="assets/bilum.svg" alt="">
+        <span>Market bilum</span>
+      </div>
+      <div class="actions">
+        <button id="discard-button" class="button secondary" type="button">Discard selected</button>
+        <button id="play-button" class="button primary" type="button">Play bundle</button>
+        <button id="next-round" class="button primary hidden" type="button">Continue journey</button>
+      </div>
+    </section>
+
+    <p id="message" class="message" role="status">Select one to five items. Five-item bundles score best.</p>
+
+    <section class="suit-legend" aria-label="Item family legend">
+      <article class="legend fibre"><span>◌</span><div><b>Fibre</b><small>weave · thread · baskets</small></div></article>
+      <article class="legend wood"><span>◆</span><div><b>Wood</b><small>tools · bowls · carving</small></div></article>
+      <article class="legend clay"><span>●</span><div><b>Clay</b><small>cups · pots · storage</small></div></article>
+      <article class="legend market"><span>✦</span><div><b>Market</b><small>produce · trade · stalls</small></div></article>
+    </section>
+    <div id="effects-layer" class="effects-layer" aria-hidden="true"></div>
+  </main>
+  <script src="game.js"></script>
+</body>
+</html>

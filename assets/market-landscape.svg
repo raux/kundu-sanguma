@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
+  <title id="title">An original riverside craft market illustration</title>
+  <desc id="desc">A stylized landscape with mountains, a river, gardens, and simple market shelters.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop stop-color="#4e9aa0"/>
+      <stop offset="1" stop-color="#e3c66e"/>
+    </linearGradient>
+    <linearGradient id="river" x1="0" x2="1">
+      <stop stop-color="#e1ddaf"/><stop offset=".46" stop-color="#87c6c4"/><stop offset="1" stop-color="#2f8d99"/>
+    </linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="10"/></filter>
+  </defs>
+  <rect width="1200" height="380" fill="url(#sky)"/>
+  <circle cx="940" cy="74" r="38" fill="#fff0af" opacity=".9"/>
+  <path d="M0 234 180 70l104 93 135-118 193 199 120-132 174 137 116-104 178 115v120H0Z" fill="#285b54"/>
+  <path d="m0 253 245-120 102 75 118-91 185 150 155-100 102 82 150-87 243 134v84H0Z" fill="#39765d"/>
+  <path d="M0 263c151-3 202 35 331 3 151-38 188 21 332-2 164-28 283 9 537-12v128H0Z" fill="url(#river)"/>
+  <path d="M431 380c90-56 148-65 243-83 165-31 235-17 382-45v128Z" fill="#307979" opacity=".82"/>
+  <path d="M0 307c74-25 123-14 199 4 61 15 138 2 224-11v80H0Z" fill="#174b3d"/>
+  <g fill="#205842">
+    <path d="m92 282 19-88 20 88Z"/><path d="m112 282 14-124 18 124Z"/>
+    <path d="m103 216-45-34 51 15-20-45 29 47 42-42-33 53 56-9-56 28Z"/>
+    <path d="m268 298 15-67 17 67Z"/><path d="m282 248-34-26 39 12-16-34 23 36 33-31-25 40 42-7-42 22Z"/>
+  </g>
+  <g transform="translate(725 205)">
+    <path d="M0 112V47h330v65" fill="#73462a"/>
+    <path d="M-12 49 38 5h239l65 44Z" fill="#d36742"/>
+    <path d="M34 5h243l-15-20H52Z" fill="#f0c35c"/>
+    <path d="M62 51v61M152 51v61M254 51v61" stroke="#f0c35c" stroke-width="10"/>
+    <rect x="78" y="67" width="54" height="27" rx="4" fill="#e3c66e"/>
+    <rect x="178" y="63" width="49" height="31" rx="4" fill="#e3c66e"/>
+  </g>
+  <g fill="#d5a648">
+    <ellipse cx="652" cy="260" rx="9" ry="5"/><ellipse cx="673" cy="269" rx="9" ry="5"/><ellipse cx="692" cy="257" rx="9" ry="5"/>
+  </g>
+  <path d="M0 324c144-14 261 7 369 26" stroke="#e3c66e" stroke-width="4" fill="none" opacity=".6"/>
+  <ellipse cx="620" cy="105" rx="75" ry="19" fill="#fff4c7" opacity=".18" filter="url(#soft)"/>
+</svg>
